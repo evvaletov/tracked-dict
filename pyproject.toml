@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/valetov/tracked-mapping"
+Repository = "https://github.com/evvaletov/tracked-dict"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

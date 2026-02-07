@@ -1,7 +1,7 @@
-"""Tests for tracked_mapping."""
+"""Tests for tracked_dict."""
 
 import pytest
-from tracked_mapping import TrackedDict, TrackedList
+from tracked_dict import TrackedDict, TrackedList
 
 
 # --- TrackedDict basics ---

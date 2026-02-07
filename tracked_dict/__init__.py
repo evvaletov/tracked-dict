@@ -10,7 +10,7 @@ expected keys.
 Usage::
 
     import json
-    from tracked_mapping import TrackedDict
+    from tracked_dict import TrackedDict
 
     with open("config.json") as f:
         data = TrackedDict(json.load(f))

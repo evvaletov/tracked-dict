@@ -1,4 +1,4 @@
-# tracked-mapping
+# tracked-dict
 
 Dict and list wrappers that track key access for reporting unconsumed data.
 
@@ -9,14 +9,14 @@ every key that was never touched.
 ## Install
 
 ```bash
-pip install tracked-mapping
+pip install tracked-dict
 ```
 
 ## Usage
 
 ```python
 import json
-from tracked_mapping import TrackedDict
+from tracked_dict import TrackedDict
 
 with open("config.json") as f:
     data = TrackedDict(json.load(f))
